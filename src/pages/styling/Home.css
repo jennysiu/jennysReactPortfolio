@@ -1,0 +1,26 @@
+/* Home.css */
+
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* gap: 20%; */
+}
+
+.text-container {
+  width: 60%;
+  margin: 0 20px;
+
+}
+
+/* profile pic */
+.jenny-headshot {
+  width: 25%;
+}
+
+/* about me */
+
+.about-me {
+  margin: 5% 20%;
+  text-align: center;
+}
