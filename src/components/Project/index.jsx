@@ -16,8 +16,10 @@ function Project(props) {
       <section className="project-text">
         <h3>{props.title}</h3>
         <p>{props.description}</p>
-        <a href={props.link}>Link | </a>
-        <a href={props.github}>GitHub</a>
+        <div className="project-links">
+          <a href={props.link}>Link | </a>
+          <a href={props.github}>GitHub</a>
+        </div>
       </section>
 
     </div>
