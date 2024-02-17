@@ -12,6 +12,7 @@ function ProjectGallery() {
           <Project
             key={project.id}
             title={project.title}
+            description={project.description}
             link={project.link}
             github={project.github}
             image={project.image}
