@@ -14,7 +14,7 @@ function Project(props) {
    
 
       <section className="project-text">
-        <h3>{props.title}</h3>
+        <h2>{props.title}</h2>
         <p>{props.description}</p>
         <div className="project-links">
           <a href={props.link}>Link | </a>
