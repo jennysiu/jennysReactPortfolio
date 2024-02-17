@@ -4,46 +4,41 @@
     "title": "NutriSmart",
     "image": "./assets/images/nutriSmart.png",
     "link": "https://jennysiu.github.io/nutriSmartApp/",
-    "github": "https://github.com/jennysiu/nutriSmartApp",
-
+    "github": "https://github.com/jennysiu/nutriSmartApp"
   },
   {
     "id": 2,
     "title": "Weather Forecast Dashboard",
     "image": "./assets/images/weatherDashboard.png",
     "link": "https://jennysiu.github.io/weatherForecastDashboard/",
-    "github": "https://github.com/jennysiu/weatherForecastDashboard",
-
+    "github": "https://github.com/jennysiu/weatherForecastDashboard"
   },
   {
     "id": 3,
     "title": "Team Profile Generator",
     "image": "./assets/images/teamProfileGenerator.png",
     "link": "",
-    "github": "https://github.com/jennysiu/teamProfileGeneratorNode",
-
+    "github": "https://github.com/jennysiu/teamProfileGeneratorNode"
   },
   {
     "id": 4,
     "title": "Javascript Game",
-    "image": "./assets/images/javaScriptQuizGame.png",
+    "image": "./assets/images/javascriptGame.png",
     "link": "https://jennysiu.github.io/javaScriptQuizGame/",
-    "github": "https://github.com/jennysiu/javaScriptQuizGame",
-
+    "github": "https://github.com/jennysiu/javaScriptQuizGame"
   },
   {
     "id": 5,
     "title": "Password Generator",
     "image": "./assets/images/passwordGenerator.png",
     "link": "https://jennysiu.github.io/passwordGenerator/",
-    "github": "https://github.com/jennysiu/passwordGenerator",
-
+    "github": "https://github.com/jennysiu/passwordGenerator"
   },
   {
     "id": 6,
-    "title": "NutriSmart",
+    "title": "Work Day Scheduler",
     "image": "./assets/images/workDayScheduler.png",
     "link": "https://jennysiu.github.io/workDayScheduler/",
-    "github": "https://github.com/jennysiu/workDayScheduler",
+    "github": "https://github.com/jennysiu/workDayScheduler"
   }
 ]

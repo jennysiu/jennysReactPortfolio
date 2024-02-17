@@ -5,3 +5,21 @@
   // [ ] Link to the deployed version
   // [ ] Link to the GitHub repository
   // [ ] GIF or screenshot of the deployed application
+import "./style.css";
+
+function Project(props) {
+  return (
+    <div className="project-card">
+      <section className="project-text">
+        <h3>{props.title}</h3>
+        <a href={props.link}>Deployed Link</a>
+        <a href={props.github}>GitHub Repository</a>
+      </section>
+      <div className="project-image-container">
+        <img src={props.image} alt={props.title} />
+      </div>
+    </div>
+  )
+}
+
+export default Project;
