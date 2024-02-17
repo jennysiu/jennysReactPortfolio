@@ -1,0 +1,21 @@
+/* Project component css */
+
+
+.project-card {
+  padding: 3rem 0 ;
+  width: 90%;
+  display: flex;
+  border-bottom: 1px solid #e0e0e0;
+
+}
+
+img {
+  width: 35%;
+}
+
+.project-text {
+  margin: 0 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
