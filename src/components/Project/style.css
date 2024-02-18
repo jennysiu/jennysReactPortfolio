@@ -16,13 +16,37 @@ p {
 }
 
 img {
-  width: 50%;
+  width: 25rem;
+  height: 225px;
   border-radius: 0.5rem;
   display: block;
+  z-index: 0
 }
 
-.project-links > a {
-  margin: 0;
+.project-image-container {
+  width: auto; 
+  height: auto;
+  position: relative;
+  display: inline-block;
+}
+
+
+.project-image-container::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #2b1d14a3; /* White overlay */
+  mix-blend-mode: multiply; /* Blend mode */
+  border-radius: 0.5rem;
+  z-index: 1;
+}
+
+.project-image-container:hover::before {
+  background: #b6a6aaad; /* White overlay */
+
 }
 
 .project-card {
