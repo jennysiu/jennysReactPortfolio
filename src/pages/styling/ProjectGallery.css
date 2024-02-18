@@ -1,3 +1,9 @@
+/* projects css */
+
+body {
+  margin: 0 10% !important;
+}
+
 h1 {
   margin: 3rem 0;
   text-align: left;

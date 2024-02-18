@@ -4,7 +4,7 @@
   padding: 3rem 0 ;
   width: 90%;
   display: flex;
-  border-bottom: 1px solid #e0e0e0;
+  border-bottom: 1px solid var(--red-brown);
 
 }
 
