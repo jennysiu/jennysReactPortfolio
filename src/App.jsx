@@ -5,11 +5,13 @@ import viteLogo from '/vite.svg';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import * as bootstrap from 'bootstrap';
+
+// components import
 import Header from './components/Header';
 import Home from './pages/Home';
 import ProjectGallery from './pages/ProjectGallery';
-// import Project from './components/Project';
 import Contact from './components/Contact';
+import Footer from './components/Footer';
 
 function App() {
 
@@ -22,6 +24,7 @@ function App() {
           <Route path="/projects" element={<ProjectGallery />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
+       <Footer />
       </Router>
     </>
   )
