@@ -1,15 +1,60 @@
 /* Project component css */
 
+h1 {
+  color: var(--deep-brown);  
+}
+
+h2 {
+  margin-top: 0;
+  color: var(--deep-brown);
+}
+
+p {
+  margin-bottom: 6%;
+  text-align: left;
+  color: var(--deep-brown);
+}
+
+.project-image {
+  width: 25rem;
+  height: 225px;
+  border-radius: 0.5rem;
+  display: block;
+  z-index: 0
+}
+
+.project-image-container {
+  width: auto; 
+  height: auto;
+  position: relative;
+  display: inline-block;
+}
+
+
+.project-image-container::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #b6a6aa; /* White overlay */
+  mix-blend-mode: multiply; /* Blend mode */
+  border-radius: 0.5rem;
+  z-index: 1;
+}
+
+.project-image-container:hover::before {
+  background: #b6a6aaad; /* White overlay */
+
+}
+
 .project-card {
   padding: 3rem 0 ;
   width: 90%;
   display: flex;
-  border-bottom: 1px solid #e0e0e0;
+  border-bottom: 1px solid var(--earthy-brown);
 
-}
-
-img {
-  width: 35%;
 }
 
 .project-text {
@@ -17,4 +62,14 @@ img {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+}
+
+.project-links a {
+  margin: 0;
+  color: white;
+  font-weight: bold;
+}
+
+.link-divider {
+  margin: 0 0.4rem;
 }
