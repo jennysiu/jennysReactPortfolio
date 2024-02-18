@@ -42,7 +42,7 @@
   {
     "id": 6,
     "title": "Work Day Scheduler",
-    "description":"A simple work day scheduling app",
+    "description":"A simple work day scheduling app.",
     "image": "./assets/images/workDayScheduler.png",
     "link": "https://jennysiu.github.io/workDayScheduler/",
     "github": "https://github.com/jennysiu/workDayScheduler"

@@ -12,7 +12,7 @@ function Project(props) {
     <div className="project-card">
       <a href={props.link} className="project-image-link" target="_blank" rel="noopener noreferrer">
         <div className="project-image-container">
-          <img src={props.image} alt={props.title}/>
+          <img src={props.image} alt={props.title} className="project-image"/>
         </div>
       </a>
       
@@ -21,7 +21,7 @@ function Project(props) {
         <p>{props.description}</p>
         <div className="project-links">
           <a href={props.link}>Link</a>
-          <span> | </span>
+          <span className="link-divider"> | </span>
           <a href={props.github}>GitHub</a>
         </div>
       </section>
