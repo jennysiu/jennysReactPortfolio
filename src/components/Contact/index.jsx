@@ -9,6 +9,7 @@ function Contact() {
   return (
     <div>
       <h1>Contact</h1>
+      <p className='contact-intro'>Feel free to reach out! I'm always open to discussing new ideas and projects.</p>
       <Form>
         <div className='contact-details'>
           <Form.Group className="mb-2" controlId="formBasicEmail">
