@@ -7,7 +7,7 @@
   background-color: #242424; */
 
   /* colour pelette */
-  --earty-brown: #9A5A31;
+  --earthy-brown: #9A5A31;
   --lavender-grey: #756C73;
   --deep-brown: #2B1D14;
   --peachy-tan: #C1886F;
@@ -39,7 +39,7 @@ body {
   min-height: 100vh;
   /* colour */
   background-color: var(--peachy-tan);
-  color: white;
+  color: var(--deep-brown);
 
 }
 

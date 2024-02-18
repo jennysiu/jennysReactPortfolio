@@ -11,19 +11,20 @@ function Home() {
     <>
       <div className="header-container">
         <div className="text-container">
-          <p>Hello world</p>
-          <h1>I'm Jenny, Front-End Web Developer</h1>
-          <p>
-            "Simple but effective, subtle but impactful, inpired by nature but always learning."
+          <p className="greetings">Hello world 👋</p>
+          <h1>I'm Jenny, Front-End Web Developer.</h1>
+          <p className="brand-statement">
+            "Inpired by nature and always learning."
           </p>
         </div>
         <img className="jenny-headshot" src={jennyHeadshot} alt="Picture of Jenny Siu" />
       </div>
       <div className="about-me">
+        <h2>About Me</h2>
         <p> Hi, I'm Jenny Siu, a front-end web developer with a passion for creating beautiful, responsive, and user-friendly websites and applications. 
             <br />
             <br />
-            I am a recent graduate of the Front-End Web Development Bootcampng my as a developer, where I learnt some of the latest technologies including React, and welcome to my React Portfolio page. 
+            I am a recent graduate of the Front-End Web Development Bootcampng my as a developer, where I learnt some of the latest technologies including React. Welcome to my React Portfolio website. 
           </p>
       </div>
     </>
