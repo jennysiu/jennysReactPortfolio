@@ -3,8 +3,8 @@
   font-weight: 400;
 
   color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  /* color: rgba(255, 255, 255, 0.87);
+  background-color: #242424; */
 
   /* colour pelette */
   --earty-brown: #9A5A31;
@@ -12,12 +12,8 @@
   --deep-brown: #2B1D14;
   --peachy-tan: #C1886F;
   --red-brown: #643A1C;
-  --rose-tinted-grey: #B7A9AC;
+  --rose-tinted-grey: #b6a6aa;
 
-  --leather: #8E6650;
-  --cocoa-brown: #211917;
-  --cold-turkey: #D6C6C4;
-  --sprun-pearl: #ACA7B7;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -41,6 +37,10 @@ body {
   /* place-items: center; */
   min-width: 320px;
   min-height: 100vh;
+  /* colour */
+  background-color: var(--peachy-tan);
+  color: white;
+
 }
 
 h1 {

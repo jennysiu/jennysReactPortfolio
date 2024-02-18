@@ -1,16 +1,21 @@
 /* header css */
 
-.navbar>.container {
-  display: inline;
+.bg-body-tertiary {
+  /* colour */
+  background-color: var(--peachy-tan) !important;
+
+}
+.navbar > .container {
+  background-color: var(--peachy-tan);
 }
 
-.links-container {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.nav-link {
+  /* colour */
+  color: white;
 }
 
 .brand-name {
   font-family: "Fraunces", Helvetica, Arial, sans-serif;
+  color: white;
+
 }
