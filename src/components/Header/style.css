@@ -1,0 +1,21 @@
+/* header css */
+
+.bg-body-tertiary {
+  /* colour */
+  background-color: var(--peachy-tan) !important;
+
+}
+.navbar > .container {
+  background-color: var(--peachy-tan);
+}
+
+.nav-link {
+  /* colour */
+  color: white;
+}
+
+.brand-name {
+  font-family: "Fraunces", Helvetica, Arial, sans-serif;
+  color: white;
+
+}
