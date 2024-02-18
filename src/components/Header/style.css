@@ -1,0 +1,16 @@
+/* header css */
+
+.navbar>.container {
+  display: inline;
+}
+
+.links-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.brand-name {
+  font-family: "Fraunces", Helvetica, Arial, sans-serif;
+}
