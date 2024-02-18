@@ -6,16 +6,16 @@
 
 }
 .navbar > .container {
+  margin: 1rem;
   background-color: var(--peachy-tan);
 }
 
 .nav-link {
   /* colour */
-  color: white;
+  color: var(--deep-brown);
 }
 
 .brand-name {
   font-family: "Fraunces", Helvetica, Arial, sans-serif;
-  color: white;
-
+  color: var(--deep-brown);
 }
