@@ -6,6 +6,19 @@
   color: rgba(255, 255, 255, 0.87);
   background-color: #242424;
 
+  /* colour pelette */
+  --earty-brown: #9A5A31;
+  --lavender-grey: #756C73;
+  --deep-brown: #2B1D14;
+  --peachy-tan: #C1886F;
+  --red-brown: #643A1C;
+  --rose-tinted-grey: #B7A9AC;
+
+  --leather: #8E6650;
+  --cocoa-brown: #211917;
+  --cold-turkey: #D6C6C4;
+  --sprun-pearl: #ACA7B7;
+
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
