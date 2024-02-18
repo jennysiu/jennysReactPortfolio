@@ -1,15 +1,36 @@
 /* Project component css */
 
+h1 {
+  color: var(--deep-brown);  
+}
+
+h2 {
+  margin-top: 0;
+  color: var(--deep-brown);
+}
+
+p {
+  margin-bottom: 6%;
+  text-align: left;
+  color: var(--deep-brown);
+}
+
+img {
+  width: 50%;
+  border-radius: 0.5rem;
+  display: block;
+}
+
+.project-links > a {
+  margin: 0;
+}
+
 .project-card {
   padding: 3rem 0 ;
   width: 90%;
   display: flex;
-  border-bottom: 1px solid var(--red-brown);
+  border-bottom: 1px solid var(--earthy-brown);
 
-}
-
-img {
-  width: 35%;
 }
 
 .project-text {

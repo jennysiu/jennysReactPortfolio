@@ -11,13 +11,12 @@ function Project(props) {
   return (
     <div className="project-card">
       <img src={props.image} alt={props.title} />
-   
-
       <section className="project-text">
         <h2>{props.title}</h2>
         <p>{props.description}</p>
         <div className="project-links">
-          <a href={props.link}>Link | </a>
+          <a href={props.link}>Link</a>
+          <span> | </span>
           <a href={props.github}>GitHub</a>
         </div>
       </section>
