@@ -111,19 +111,6 @@ p {
 
 /* iphone */
 @media (max-width: 390px) {
-  /* .project-card {
-    flex-direction: column;
-    align-items: flex-start;
-  }
-
-  .project-text {
-    margin: 0;
-  }
-
-  .project-image-link {
-    margin: 0;
-  } */
-
   .project-image {
     width: 20rem;
     height: 220px;

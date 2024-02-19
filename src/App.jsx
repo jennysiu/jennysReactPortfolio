@@ -10,7 +10,7 @@ import * as bootstrap from 'bootstrap';
 import Header from './components/Header';
 import Home from './pages/Home';
 import ProjectGallery from './pages/ProjectGallery';
-import Contact from './components/Contact';
+import Contact from './pages/Contact';
 import Footer from './components/Footer';
 
 function App() {
