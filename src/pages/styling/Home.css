@@ -13,17 +13,17 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  /* gap: 20%; */
+  margin: 3em 0;;
 }
 
 .text-container {
   width: 60%;
-  margin: 0 20px;
+  margin: 0;
 }
 
 .greetings {
   text-align: left;
-  font-size: 1.2rem;
+  font-size: 1.2em;
 }
 
 .brand-statement {
@@ -33,8 +33,9 @@
 
 /* profile pic */
 .jenny-headshot {
-  width: 18%;
-  border-radius: 0.5rem;
+  width: 22%;
+  height: auto;
+  border-radius: 0.5em;
   box-shadow: 10px 5px 5px 1px rgba(0, 0, 0, 0.3);
 }
 
@@ -42,11 +43,33 @@
 
 h2 {
   text-align: left;
-  margin: 2rem 0;
+  margin: 2em 0;
   color: var(--deep-brown);
 }
 
 .about-me {
-  margin: 5% 10%;
+  margin: 5% 11%;
   text-align: left
+}
+
+/* responsiveness */
+@media (max-width: 768px) {
+  .header-container {
+    flex-direction: column; /* On smaller screens, switch to a column layout */
+  }
+
+  .text-container {
+    width: 90%; /* On smaller screens, make the text container take up the full width */
+  }
+
+  .jenny-headshot {
+    width: 40%;
+    margin-top: 2em; /* Remove the space between text and image on smaller screens */
+  }
+
+  .about-me {
+    width: 90%;
+    margin: 5%;
+    padding-bottom: 10%;
+  }
 }
