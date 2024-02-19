@@ -32,9 +32,10 @@ a:hover {
 
 }
 
+
 body {
   font-family: "Mulish", Helvetica, Arial, sans-serif;
-  margin: 0 10%;
+  margin: 0 !important;
   display: flex;
   /* place-items: center; */
   min-width: 320px;
@@ -42,7 +43,6 @@ body {
   /* colour */
   background-color: var(--peachy-tan);
   color: var(--deep-brown);
-
 }
 
 h1 {

@@ -19,7 +19,7 @@ function App() {
     <>
       <Router>
         <Header />
-        <Routes>
+        <Routes className="site-content">
           <Route path="/" element={<Home />} />
           <Route path="/projects" element={<ProjectGallery />} />
           <Route path="/contact" element={<Contact />} />
