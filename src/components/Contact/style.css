@@ -1,7 +1,26 @@
+/* contact css */
+
+h2 {
+  text-align: left;
+  margin-top: 2rem;
+  margin-bottom: 0;
+  color: var(--deep-brown);
+}
+
+p{
+  margin: 1rem 0;
+}
+
 form {
   padding: 1rem 2rem;
   background-color: rgba(255, 255, 255, 0.189);
   border-radius: 0.5rem;
+}
+
+.contact-container {
+  display: flex;
+  gap: 2rem;
+  margin: 5% 10%;
 }
 
 .contact-intro {
@@ -13,3 +32,14 @@ form {
   gap: 1rem;
 }
 
+.contact-links {
+  text-align: left;
+  font-size: 2rem;
+  margin: 2rem 0;
+}
+
+.send-button {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  padding: 0.6em 1.2em;
+}

@@ -25,9 +25,11 @@ a {
   font-weight: 500;
   color: white;
   text-decoration: inherit;
+  transition: border-color 0.25s;
 }
 a:hover {
   color: rgba(35, 116, 160, 0.946);
+
 }
 
 body {
