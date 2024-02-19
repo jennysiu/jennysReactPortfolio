@@ -8,8 +8,7 @@ footer {
   background-color: var(--deep-brown);
 
   /* to make footer stay at the bottom of page */
-  position: absolute;
-  width: 100%;
+
   bottom: 0;
 }
 

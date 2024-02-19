@@ -19,12 +19,12 @@ function App() {
     <>
       <Router>
         <Header />
-        <Routes className="site-content">
+        <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/projects" element={<ProjectGallery />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
-       <Footer />
+        <Footer />
       </Router>
     </>
   )

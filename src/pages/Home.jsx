@@ -8,7 +8,7 @@ import "./styling/Home.css"
 
 function Home() {
   return (
-    <>
+    <section className="home-section">
       <div className="header-container">
         <div className="text-container">
           <p className="greetings">Hello world 👋</p>
@@ -27,7 +27,7 @@ function Home() {
             I am a recent graduate of the Front-End Web Development Bootcampng my as a developer, where I learnt some of the latest technologies including React. Welcome to my React Portfolio website. 
           </p>
       </div>
-    </>
+    </section>
   )
 }
 
