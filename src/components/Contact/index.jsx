@@ -26,7 +26,7 @@ function Contact() {
       </section>
 
       <Form name="contact" data-netlify="true" method="POST" data-netlify-honeypot="bot-field">
-        <input type="hidden" name="form-name" value="contact-form" />
+        <input type="hidden" name="form-name" value="contact" />
 
         <h2>Send me a message</h2>
         <div className='contact-details'>
