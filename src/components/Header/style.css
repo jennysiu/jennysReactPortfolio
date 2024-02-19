@@ -3,19 +3,24 @@
 .bg-body-tertiary {
   /* colour */
   background-color: var(--peachy-tan) !important;
-
 }
+
+.navbar {
+  background-color: var(--deep-brown) !important;
+  width: 100% !important;
+}
+
 .navbar > .container {
   margin: 1rem;
-  background-color: var(--peachy-tan);
+  background-color: var(--deep-brown) !important;
 }
 
 .nav-link {
   /* colour */
-  color: var(--deep-brown);
+  color: white;
 }
 
 .brand-name {
   font-family: "Fraunces", Helvetica, Arial, sans-serif;
-  color: var(--deep-brown);
+  color: wheat;
 }

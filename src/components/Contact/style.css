@@ -7,7 +7,7 @@ h2 {
   color: var(--deep-brown);
 }
 
-p{
+p {
   margin: 1rem 0;
 }
 
@@ -15,12 +15,14 @@ form {
   padding: 1rem 2rem;
   background-color: rgba(255, 255, 255, 0.189);
   border-radius: 0.5rem;
+  height: fit-content;
 }
 
 .contact-container {
   display: flex;
   gap: 2rem;
   margin: 5% 10%;
+  min-height: 100vh;
 }
 
 .contact-intro {

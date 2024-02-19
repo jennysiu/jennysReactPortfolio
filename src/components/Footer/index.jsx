@@ -4,6 +4,7 @@ import './style.css';
 function Footer() {
   return (
     <footer>
+      <p className='copyright-text'>© 2024 All Rights Jenny Siu</p>
       <section className="footer-links">
         <a href="https://github.com/jennysiu">
           <i className="fa-brands fa-github"></i>
@@ -15,7 +16,6 @@ function Footer() {
           <i className="fa-solid fa-envelope"></i>
         </a>
       </section>  
-      <p>© Jenny Siu. All rights</p>
     </footer>
   )
 }

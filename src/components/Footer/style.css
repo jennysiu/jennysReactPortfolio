@@ -1,9 +1,30 @@
 /* footer css */
 
+footer {
+
+  display: flex;
+  justify-content: space-between;
+
+  /* colour */
+  background-color: var(--deep-brown);
+
+  /* to make footer stay at the bottom of page */
+  bottom: 0;
+}
+
 a {
   margin: 0 0.5rem;
+  font-size: 1.5rem;
+  color: white;
 }
+
+.copyright-text {
+  margin-left: 2rem;
+  color: white;
+}
+
 .footer-links {
+  margin-right: 2rem;
   font-size: 1.8rem;
 }
 
