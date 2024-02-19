@@ -26,6 +26,7 @@ function Home() {
             <br />
             I am a recent graduate of the Front-End Web Development Bootcampng my as a developer, where I learnt some of the latest technologies including React. Welcome to my React Portfolio website. 
           </p>
+        <a className="resume-link" href="https://docs.google.com/document/d/1JTwIgCrFwqtqXzOJ4nyV_ecF8zuww2FrQxD2MzSqZ_4/edit?usp=sharing" target="_blank">See my resume here</a>
       </div>
     </section>
   )
