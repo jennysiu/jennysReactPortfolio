@@ -45,3 +45,18 @@ form {
   margin-bottom: 2rem;
   padding: 0.6em 1.2em;
 }
+
+/* responsiveness */
+@media (min-width: 1600px) and (max-width: 2200px) {
+  /* Styles for large devices */
+  .contact-container {
+    flex-direction: column;
+  }
+}
+
+@media (min-width: 390px) and (max-width: 767.98px) {
+  /* Styles for small devices */
+  .contact-container {
+    flex-direction: column;
+  }
+}

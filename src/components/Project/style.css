@@ -51,7 +51,7 @@ p {
 
 .project-card {
   padding: 3rem 0 ;
-  width: 90%;
+
   display: flex;
   border-bottom: 1px solid var(--earthy-brown);
 
@@ -72,4 +72,58 @@ p {
 
 .link-divider {
   margin: 0 0.4rem;
+}
+
+/* responsiveness */
+/* medium screen */
+@media (max-width: 768px) {
+  .project-card {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .project-text {
+    margin: 0;
+  }
+
+  .project-image-link {
+    margin: 0;
+  }
+  
+}
+
+/* small screen */
+@media (max-width: 566px) {
+  .project-card {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .project-text {
+    margin: 0;
+  }
+
+  .project-image-link {
+    margin: 0;
+  }
+  
+}
+
+/* iphone */
+@media (max-width: 390px) {
+  .project-image {
+    width: 20rem;
+    height: 220px;
+    border-radius: 0.5rem;
+    display: block;
+    z-index: 0
+  }
+  
+  .project-image-container {
+    width: auto; 
+    height: auto;
+    position: relative;
+    display: inline-block;
+  }
+  
 }

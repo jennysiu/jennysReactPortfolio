@@ -6,9 +6,9 @@ import "./styling/ProjectGallery.css";
 
 function ProjectGallery() {
   return (
-    <div>
+    <div className="projects-container">
       <h1>Project Gallery</h1>
-      <section className="projects-container">
+      <section >
         {projectData.map((project) => (
           <Project
             key={project.id}

@@ -8,6 +8,7 @@
 .navbar {
   background-color: var(--deep-brown) !important;
   width: 100% !important;
+  justify-content: center;
 }
 
 .navbar > .container {
@@ -23,4 +24,12 @@
 .brand-name {
   font-family: "Fraunces", Helvetica, Arial, sans-serif;
   color: wheat;
+}
+
+/* responsiveness */
+@media (max-width: 768px) {
+  .navbar {
+    background-color: var(--deep-brown) !important;
+    width: 100% !important;
+  }
 }

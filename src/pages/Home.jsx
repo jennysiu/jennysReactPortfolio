@@ -11,7 +11,7 @@ function Home() {
     <section className="home-section">
       <div className="header-container">
         <div className="text-container">
-          <p className="greetings">Hello world 👋</p>
+          <p className="greetings">Hello world ✨</p>
           <h1>I'm Jenny, Front-End Web Developer.</h1>
           <p className="brand-statement">
             "Inpired by nature and always learning."

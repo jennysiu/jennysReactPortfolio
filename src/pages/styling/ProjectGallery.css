@@ -1,10 +1,21 @@
-/* projects css */
+/* project gallery css */
 
-body {
-  margin: 0 10% !important;
+.projects-container {
+  margin: 0 2em !important;
 }
 
 h1 {
   margin: 2.5rem 0;
   text-align: left;
+}
+
+
+/* responsiveness */
+@media (min-width: 1600px) and (max-width: 2200px) {
+  /* Styles for large devices */
+  h1 {
+    margin-top: 4.5rem;
+
+  }
+
 }
