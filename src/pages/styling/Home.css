@@ -52,6 +52,13 @@ h2 {
   text-align: left
 }
 
+.resume-link {
+  margin: 2em 0;
+  font-size: 1em;
+  text-decoration: underline;
+
+}
+
 /* responsiveness */
 
 @media (min-width: 1600px) and (max-width: 2200px) {
