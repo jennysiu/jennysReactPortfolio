@@ -5,6 +5,7 @@ footer {
   display: flex;
   justify-content: space-between;
 
+  /* colour */
   background-color: var(--deep-brown);
 
   /* to make footer stay at the bottom of page */
@@ -18,11 +19,12 @@ a {
 }
 
 .copyright-text {
+  margin-left: 2rem;
   color: white;
 }
 
 .footer-links {
+  margin-right: 2rem;
   font-size: 1.8rem;
-  /* text-align: right; */
 }
 
