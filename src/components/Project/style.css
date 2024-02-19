@@ -51,7 +51,7 @@ p {
 
 .project-card {
   padding: 3rem 0 ;
-  width: 90%;
+
   display: flex;
   border-bottom: 1px solid var(--earthy-brown);
 
@@ -72,4 +72,12 @@ p {
 
 .link-divider {
   margin: 0 0.4rem;
+}
+
+/* responsiveness */
+@media (max-width: 768px) {
+  .navbar {
+    background-color: var(--deep-brown) !important;
+    width: 100% !important;
+  }
 }

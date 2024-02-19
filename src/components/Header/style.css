@@ -8,6 +8,7 @@
 .navbar {
   background-color: var(--deep-brown) !important;
   width: 100% !important;
+  justify-content: center;
 }
 
 .navbar > .container {

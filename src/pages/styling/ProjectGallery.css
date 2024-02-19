@@ -1,7 +1,7 @@
 /* projects css */
 
-body {
-  margin: 0 10% !important;
+.projects-container {
+  margin: 0 2em !important;
 }
 
 h1 {

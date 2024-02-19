@@ -2,6 +2,7 @@
 
 .home-section {
   min-height: 100vh;
+  margin: 0 2em;
 }
 
 .text-container h1 {
@@ -11,9 +12,8 @@
 
 .header-container {
   display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 3em 0;;
+  margin: 3em 0;
+
 }
 
 .text-container {
@@ -33,7 +33,7 @@
 
 /* profile pic */
 .jenny-headshot {
-  width: 22%;
+  width: 30%;
   height: auto;
   border-radius: 0.5em;
   box-shadow: 10px 5px 5px 1px rgba(0, 0, 0, 0.3);
@@ -48,7 +48,7 @@ h2 {
 }
 
 .about-me {
-  margin: 5% 11%;
+  margin: 5% 0 !important;
   text-align: left
 }
 
