@@ -25,8 +25,8 @@ function Contact() {
         </div>
       </section>
 
-      <Form name="contact" data-netlify="true" method="POST" data-netlify-honeypot="bot-field">
-        <input type="hidden" name="contact" value="contact-form" />
+      <Form name="contact" data-netlify="true" data-netlify-honeypot="bot-field">
+        <input type="hidden" name="form-name" value="contact" />
 
         <h2>Send me a message</h2>
         <div className='contact-details'>
@@ -40,13 +40,13 @@ function Contact() {
           
           <Form.Group className="mb-2" controlId="formBasicPName">
             <Form.Label></Form.Label>
-            <Form.Control type="name" name="name" placeholder="Name" />
+            <Form.Control type="text" name="name" placeholder="Name" />
           </Form.Group>
         </div>
 
         <Form.Group className="mb-2" controlId="formBasicSubject">
           <Form.Label></Form.Label>
-          <Form.Control type="subject" name="subject" placeholder="Subject" />
+          <Form.Control type="text" name="subject" placeholder="Subject" />
         </Form.Group>
 
         <Form.Group className="mb-2" controlId="exampleForm.ControlTextarea1">
@@ -58,6 +58,7 @@ function Contact() {
           Send Message
         </Button>
       </Form>
+
     </div>
   )
 }
