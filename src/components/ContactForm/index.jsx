@@ -1,5 +1,3 @@
-import Button from 'react-bootstrap/Button';
-import Form from 'react-bootstrap/Form';
 import "./style.css"
 
 function ContactForm() {
@@ -17,7 +15,7 @@ function ContactForm() {
         </p>
       </div>
       <p>
-        <label><input type="email" name="subject" placeholder="Subject"/></label>
+        <label><input type="text" name="subject" placeholder="Subject"/></label>
       </p>
       <p>
         <label><textarea name="message" placeholder="Message"></textarea></label>

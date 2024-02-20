@@ -13,7 +13,7 @@ input, textarea {
   width: 100%;
   padding: 0.2em 0.4em;
   background-color: white;
-  color: var(--lavender-grey);
+  color: var(--rose-tinted-grey);
   border: transparent;
   border-radius: 0.5em;
   border: 1px solid var(--rose-tinted-grey); /* Set the default border color */

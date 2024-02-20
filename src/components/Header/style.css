@@ -18,12 +18,25 @@
 
 .nav-link {
   /* colour */
+  color: wheat;
+}
+
+.nav-link:hover {
+  /* colour */
   color: white;
 }
 
 .brand-name {
   font-family: "Fraunces", Helvetica, Arial, sans-serif;
   color: wheat;
+}
+
+.brand-name:visited {
+  color: wheat; /* Set the color for visited links */
+}
+
+.brand-name:hover {
+  color: white;
 }
 
 /* responsiveness */
