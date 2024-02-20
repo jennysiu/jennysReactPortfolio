@@ -12,7 +12,7 @@
 }
 
 .navbar > .container {
-  margin: 1rem;
+  margin: 0.4rem;
   background-color: var(--deep-brown) !important;
 }
 
@@ -24,6 +24,11 @@
 .nav-link:hover {
   /* colour */
   color: white;
+}
+
+.nav-link:visited {
+  /* colour */
+  color: wheat;
 }
 
 .brand-name {

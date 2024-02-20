@@ -12,6 +12,7 @@ import "./style.css";
 // [x] Must Contain a Navbar
 
 function Header() {
+  
   return (
     <>
     <Navbar expand="lg" className="bg-body-tertiary">
