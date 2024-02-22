@@ -1,0 +1,32 @@
+/* contact form component */
+
+.contact-details {
+  display: flex;
+
+}
+
+label {
+ width: 100%;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 0.2em 0.4em;
+  background-color: white;
+  color: var(--rose-tinted-grey);
+  border: transparent;
+  border-radius: 0.5em;
+  border: 1px solid var(--rose-tinted-grey); /* Set the default border color */
+
+}
+
+/* Apply styles when the input is focused */
+input:focus {
+  border-color: var(--earthy-brown); 
+  outline: none; 
+}
+
+textarea:focus {
+  border-color: var(--earthy-brown);
+  outline: none;
+}

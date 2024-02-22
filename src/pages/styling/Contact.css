@@ -23,6 +23,7 @@ form {
   gap: 2rem;
   margin: 5% 10%;
   min-height: 100vh;
+  
 }
 
 .contact-intro {
@@ -32,6 +33,7 @@ form {
 .contact-details {
   display: flex;
   gap: 1rem;
+  
 }
 
 .contact-links {

@@ -12,18 +12,36 @@
 }
 
 .navbar > .container {
-  margin: 1rem;
+  margin: 0.4rem;
   background-color: var(--deep-brown) !important;
 }
 
 .nav-link {
   /* colour */
+  color: wheat;
+}
+
+.nav-link:hover {
+  /* colour */
   color: white;
+}
+
+.nav-link:visited {
+  /* colour */
+  color: wheat;
 }
 
 .brand-name {
   font-family: "Fraunces", Helvetica, Arial, sans-serif;
   color: wheat;
+}
+
+.brand-name:visited {
+  color: wheat; /* Set the color for visited links */
+}
+
+.brand-name:hover {
+  color: white;
 }
 
 /* responsiveness */
