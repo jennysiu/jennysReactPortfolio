@@ -1,23 +1,43 @@
 /* contact form component */
 
+form {
+  padding: 1rem 4rem;
+  border-radius: 0.5rem;
+  height: fit-content;
+}
+
+.send-a-message {
+  margin-bottom: 0.4em;
+}
+
 .contact-details {
   display: flex;
+}
+
+.form-name {
+  width: 50%;
+}
+
+.email-sidenote {
+  margin: 0;
+  font-size: 0.9em;
+  color: var(--red-brown);
 
 }
 
-label {
- width: 100%;
+.form-message {
+  padding-bottom: 15%;
 }
 
 input, textarea {
   width: 100%;
+  margin: 0.4em 0;
+  height: fit-content;
   padding: 0.2em 0.4em;
-  background-color: white;
-  color: var(--rose-tinted-grey);
+  background-color: rgba(255, 255, 255, 0.53); 
+  color: var(--deep-brown);
   border: transparent;
-  border-radius: 0.5em;
-  border: 1px solid var(--rose-tinted-grey); /* Set the default border color */
-
+  border-radius: 0.4em;
 }
 
 /* Apply styles when the input is focused */
@@ -29,4 +49,9 @@ input:focus {
 textarea:focus {
   border-color: var(--earthy-brown);
   outline: none;
+}
+
+.submit-button {
+  display: flex;
+  margin: 0.4em 0;
 }
