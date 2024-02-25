@@ -3,7 +3,7 @@ import "./style.css"
 function ContactForm() {
   return (
     <>
-    <form name="contact" method="POST" data-netlify="true">
+    <form name="contact" method="POST" data-netlify="true" onSubmit="submit">
     <h2>Send me a message</h2>
       <div className='contact-details'>
         <p>
