@@ -1,15 +1,14 @@
 import "./style.css"
 
-// function ContactForm() {
-//   // function to handle submit button
-//   function handleSubmit(event) {
-//     event.preventDefault();
-//   }
+function ContactForm() {
+  // function to handle submit button
+  // function handleSubmit(event) {
+  //   event.preventDefault();
+  // }
   
   return (
     <>
-    <form name="contact" method="POST" data-netlify="true" onSubmit="submit" netlify-honeypot="bot-field"
-    action="/contact">
+    <form name="contact" method="POST" data-netlify="true" onSubmit="submit" netlify-honeypot="bot-field">
       {/* hidden input to help netlify identify the form */}
       <input type="hidden" name="form-name" value="contact" />
       
