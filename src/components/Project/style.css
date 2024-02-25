@@ -74,6 +74,28 @@ p {
   margin: 0 0.4rem;
 }
 
+.project-link {
+  position: relative; 
+  transition: all 0.3s ease-in-out;
+
+}
+
+.project-link::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 1px; /* Height of the underline */
+  bottom: 0;
+  left: 0;
+  background-color: rgba(35, 116, 160, 0.946);
+  visibility: hidden;
+}
+
+.project-link:hover::after {
+  visibility: visible;
+  width: 100%;
+}
+
 /* responsiveness */
 /* medium screen */
 @media (max-width: 768px) {
