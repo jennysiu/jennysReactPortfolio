@@ -1,14 +1,24 @@
+import { useNavigate } from 'react-router-dom';
 import "./style.css"
 
 function ContactForm() {
-  // function to handle submit button
-  // function handleSubmit(event) {
-  //   event.preventDefault();
-  // }
+  let navigate = useNavigate()
+  const submitHandler = (e) =>{
+    e.preventDefault();
+    let myForm = e.target;
+    let formData = new FormData(myForm);
+    fetch("/", {
+      method: "POST",
+      headers: { "Content-Type": "application/x-www-form-urlencoded" },
+      body: new URLSearchParams(formData).toString(),
+    })
+      .then(() => navigate('/contact'))
+      .catch((error) => alert(error));
+  }
   
   return (
     <>
-    <form name="contact" method="POST" data-netlify="true" onSubmit="submit" netlify-honeypot="bot-field">
+    <form name="contact" method="POST" data-netlify="true" onSubmit={submitHandler} netlify-honeypot="bot-field">
       {/* hidden input to help netlify identify the form */}
       <input type="hidden" name="form-name" value="contact" />
       
