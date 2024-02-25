@@ -39,27 +39,27 @@ function ContactForm() {
       <input type="hidden" name="form-name" value="contact" />
       
 
-      <h2>Send me a message</h2>
+      <h2 className='send-a-message'>Send me a message</h2>
       <div className='contact-details'>
-        <div>
-          <input type="email" name="email" placeholder="Enter email"/>
-          <p>I'll never share your email with anyone else.</p>
+        <div className='email'>
+          <input type="form-email" name="email" placeholder="Enter email"/>
+          <p className='email-sidenote'>I'll never share your email with anyone else.</p>
         </div>
-        <input type="text" name="name" placeholder="Name"/>
+        <input type="text" name="name" placeholder="Name" className='form-name'/>
       </div>
         <input type="text" name="subject" placeholder="Subject"/>
-        <textarea name="message" placeholder="Message"></textarea>
-        <button type="submit">Send Message</button>
+        <textarea name="message" placeholder="Message" className='form-message'></textarea>
+        <button className="submit-button"type="submit">Send Message</button>
     </form>
 
 
-    <Modal show={showModal} onHide={closeModal}>
+    <Modal className="modal" show={showModal} onHide={closeModal}>
       <Modal.Header closeButton>
-        <Modal.Title>Modal title</Modal.Title>
+        <Modal.Title>Message Received</Modal.Title>
       </Modal.Header>
 
       <Modal.Body>
-        <p>Thanks for your message, your form has been submitted successfully. I will be in touch soon!</p>
+        <p>Thanks for your message, your message has been submitted successfully. I will be in touch soon!</p>
       </Modal.Body>
 
       <Modal.Footer>
