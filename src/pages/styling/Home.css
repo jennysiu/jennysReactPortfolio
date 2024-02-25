@@ -55,8 +55,28 @@ h2 {
 .resume-link {
   margin: 2em 0;
   font-size: 1em;
-  text-decoration: underline;
+}
 
+.resume-link {
+  position: relative; 
+  transition: all 0.3s ease-in-out;
+
+}
+
+.resume-link::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 1px; /* Height of the underline */
+  bottom: 0;
+  left: 0;
+  background-color: rgba(35, 116, 160, 0.946);;
+  visibility: hidden;
+}
+
+.resume-link:hover::after {
+  visibility: visible;
+  width: 100%;
 }
 
 /* responsiveness */

@@ -7,7 +7,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import * as bootstrap from 'bootstrap';
 
 // components import
-import Header from './components/Header';
+import Header from './components/Navbar';
 import Home from './pages/Home';
 import ProjectGallery from './pages/ProjectGallery';
 import Contact from './pages/Contact';

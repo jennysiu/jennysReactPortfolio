@@ -20,9 +20,9 @@ function Project(props) {
         <h2>{props.title}</h2>
         <p>{props.description}</p>
         <div className="project-links">
-          <a href={props.link}>Link</a>
-          <span className="link-divider"> | </span>
-          <a href={props.github}>GitHub</a>
+          <a className="project-link" href={props.link}>Link</a>
+          <span className="link-divider"> / </span>
+          <a className="project-link" href={props.github}>GitHub</a>
         </div>
       </section>
 
