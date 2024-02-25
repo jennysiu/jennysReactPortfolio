@@ -53,13 +53,13 @@ function ContactForm() {
     </form>
 
 
-    <Modal show={showModal} onHide={closeModal}>
+    <Modal className="modal" show={showModal} onHide={closeModal}>
       <Modal.Header closeButton>
-        <Modal.Title>Modal title</Modal.Title>
+        <Modal.Title>Message Received</Modal.Title>
       </Modal.Header>
 
       <Modal.Body>
-        <p>Thanks for your message, your form has been submitted successfully. I will be in touch soon!</p>
+        <p>Thanks for your message, your message has been submitted successfully. I will be in touch soon!</p>
       </Modal.Body>
 
       <Modal.Footer>
