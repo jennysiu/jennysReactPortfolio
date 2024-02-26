@@ -1,8 +1,3 @@
-// This should be a welcome landing page that contains:
-// [x] Your Name
-// [x] A Headshot of you
-// [x] Your brand statement
-// [x] Some indication that this is your portfolio site
 import jennyHeadshot from "../assets/images/jennyHeadshot.jpeg";
 import "./styling/Home.css"
 
