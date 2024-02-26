@@ -1,10 +1,6 @@
-import Button from 'react-bootstrap/Button';
-import Form from 'react-bootstrap/Form';
 import ContactForm from '../components/ContactForm/index.jsx';
 import './styling/Contact.css';
 
-// [ ] Must have contact information
-// [ ] Have a contact form for handling events
 
 function Contact() {
   return (

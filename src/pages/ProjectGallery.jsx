@@ -1,5 +1,3 @@
-// [ ] Must render dynamically 6 instances of the Project component
-  // [ ] Be sure to store your project data in a JSON file and import it into your project
 import Project from "../components/Project"; 
 import projectData from "../assets/data/projectData.json";
 import "./styling/ProjectGallery.css";
