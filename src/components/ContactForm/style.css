@@ -54,6 +54,7 @@ textarea:focus {
 .submit-button {
   display: flex;
   margin: 0.4em 0;
+  transition: all ease-in-out 0.3s;
 }
 
 /* modal styling */

@@ -8,9 +8,6 @@ import Navbar from 'react-bootstrap/Navbar';
 // custom css styling
 import "./style.css";
 
-// [x] Must be rendered across the entire site
-// [x] Must Contain a Navbar
-
 function Header() {
   
   return (
