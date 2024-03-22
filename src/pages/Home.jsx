@@ -12,7 +12,7 @@ function Home() {
             "Inpired by nature and always learning."
           </p>
         </div>
-        <img className="jenny-headshot" src={jennyHeadshot} alt="Picture of Jenny Siu" />
+        {/* <img className="jenny-headshot" src={jennyHeadshot} alt="Picture of Jenny Siu" /> */}
       </div>
       <div className="about-me">
         <h2>About Me</h2>
