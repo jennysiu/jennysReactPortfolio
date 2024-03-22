@@ -1,6 +1,14 @@
 [
   {
     "id": 1,
+    "title": "Bloomify",
+    "description": "A house plant care app that allows users to explore new plants and setup watering reminders for their existing plants.",
+    "image": "./assets/images/bloomify-web-app.png",
+    "link": "https://bloomifyapp.netlify.app/",
+    "github": "https://github.com/jennysiu/Bloomify"
+  },
+  {
+    "id": 2,
     "title": "NutriSmart",
     "description": "A nutritional analysis app for health-conscious individuals.",
     "image": "./assets/images/nutriSmart.png",
@@ -8,7 +16,7 @@
     "github": "https://github.com/jennysiu/nutriSmartApp"
   },
   {
-    "id": 2,
+    "id": 3,
     "title": "Weather Forecast Dashboard",
     "description": "A weather forecast dashboard that provides current weather and 5-day forecast.",
     "image": "./assets/images/weatherDashboard.png",
@@ -16,7 +24,7 @@
     "github": "https://github.com/jennysiu/weatherForecastDashboard"
   },
   {
-    "id": 3,
+    "id": 4,
     "title": "Team Profile Generator",
     "description": "A Node.js command-line application that takes in information about employees on a software engineering team and generates an HTML webpage that displays summaries for each person.",
     "image": "./assets/images/teamProfileGenerator.png",
@@ -24,7 +32,7 @@
     "github": "https://github.com/jennysiu/teamProfileGeneratorNode"
   },
   {
-    "id": 4,
+    "id": 5,
     "title": "Javascript Game",
     "description": "A simple javascript game that tests your knowledge of javascript.",
     "image": "./assets/images/javascriptGame.png",
@@ -32,7 +40,7 @@
     "github": "https://github.com/jennysiu/javaScriptQuizGame"
   },
   {
-    "id": 5,
+    "id": 6,
     "title": "Password Generator",
     "description": "Generates a random password based on user input.",
     "image": "./assets/images/passwordGenerator.png",
@@ -40,7 +48,7 @@
     "github": "https://github.com/jennysiu/passwordGenerator"
   },
   {
-    "id": 6,
+    "id": 7,
     "title": "Work Day Scheduler",
     "description":"A simple work day scheduling app.",
     "image": "./assets/images/workDayScheduler.png",
